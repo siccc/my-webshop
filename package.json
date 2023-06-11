@@ -1,0 +1,33 @@
+{
+  "name": "my-webshop",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.5.3",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/node": "^18",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.42.0",
+    "nuxt": "3.5.2",
+    "nuxt-vitest": "0.8.5"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-number-input": "^2.0.1",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.3"
+  }
+}
