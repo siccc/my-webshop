@@ -6,7 +6,7 @@ This project is a simple webshop example made with Nuxt 3 and Pinia managing the
 
 For a live demo of the project have a look at [here](https://webshop-siccc.vercel.app/).
 
-## Project Setup
+## 🚩 Project Setup
 
 Make sure to install the dependencies:
 
@@ -14,7 +14,7 @@ Make sure to install the dependencies:
 npm install
 ```
 
-## Compile for Development
+## 🧑‍💻 Compile for Development
 
 Start the development server on `http://localhost:3000`
 
@@ -22,7 +22,7 @@ Start the development server on `http://localhost:3000`
 npm run dev
 ```
 
-## Compile for Production
+## ✨ Compile for Production
 
 Build the application for production:
 
@@ -42,7 +42,7 @@ Build the application for production (▲Vercel)
 NITRO_PRESET=vercel npm run build
 ```
 
-## Runing Test
+## 📋 Running Tests
 
 ```bash
 npm run test
